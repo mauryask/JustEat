@@ -1,0 +1,142 @@
+@charset "ISO-8859-1";
+.fact
+{
+  	width:100%;
+  	height:auto;
+  	background:rgba(200,200,200,1);
+  	display:flex;
+  	flex-direction:row;
+  	align-items:center;
+  	justify-content:space-around;
+  	padding:50px;
+  	margin-top:3rem;
+}
+
+.fact .message
+{
+  width:450px;
+  text-align: left;
+}
+
+.fact .message p
+{
+  line-height:30px;
+  word-spacing:3px;
+  font-weight:normal;
+  font-size:15px;
+  color:rgba(70,70,70,1);
+}
+
+.fact .message p span
+{
+  font-size:25px;
+  font-weight:bold;
+  letter-spacing:0.4px;
+  color:rgba(50,50,50,1);
+}
+
+
+
+.fact .fact-img
+{
+  width:420px;
+  height:340px;
+}
+
+.fact .fact-img img
+{
+
+  width:420px;
+  height:340px;
+}
+
+.deliver{
+	width:100%;
+	height:450px;
+	background:
+	url("../image/deliver.jpg") 100% 100% no-repeat;	
+	background-size:cover;
+	background-attachment: scroll;
+	position:center;
+	object-fit:center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	word-wrap:break-word;
+	padding:60px;
+}
+
+
+.deliver p:nth-child(1)
+{
+	text-transform:uppercase;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	font-size:30px;
+	letter-spacing:0.5px;
+}
+
+.deliver p:nth-child(2)
+{
+	margin-top:10px;
+	line-height:20px;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+}
+
+
+
+.deliver button{
+	margin-top:2rem;
+	width:14rem;
+	height:2.8rem;
+	font-size:18px;
+	border:1px solid white;
+	border-radius:25px;
+	background:none;
+	color:white;
+	letter-spacing:0.5px;
+	cursor:pointer;
+}
+
+.deliver button:hover
+{
+	background:orange;
+	border-color:orange;
+	transition:0.3s;
+}
+
+.deliver .buyers
+{
+    margin-top:25px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.deliver .buyers p
+{
+	text-align:center;
+	font-weight:normal;
+	font-size:15px;
+	text-transform:Capitalize;
+}
+.deliver  .logos
+{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	margin-top:8px;
+}
+
+.deliver .logos img
+{
+	cursor:pointer;
+	width:120px;
+	height:120px;
+}

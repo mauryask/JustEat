@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+body
+{
+	width:100%;
+	background:#ff0000;
+	height:100vh;
+}
+
+h1{
+	color:#00ff00;
+	font-size:1000px;
+}
+

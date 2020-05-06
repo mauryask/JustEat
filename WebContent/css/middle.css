@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+.middle{
+	width:100%;
+	height:auto;
+	background:rgba(200,200,200,1);
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+
+.head-food
+{
+   margin-top:40px;
+}
+
+.head-food p
+{
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:bold;
+	font-size:25px;
+	letter-spacing:1.5px;
+	color:rgba(50,50,50,1);
+}
+
+.middle .horz-line 
+{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+}
+
+.middle .horz-line div:nth-child(1)
+{
+	width:2rem;
+	height:1px;
+	background:rgba(220,220,220,1);
+}
+
+.middle .horz-line div:nth-child(2){
+	width:4rem;
+	height:3.5px;
+	background:orange;
+}
+
+.middle .horz-line div:nth-child(3){
+	width:2rem;
+	height:1px;
+	background:rgba(220,220,220,1);;
+}
+
+
+.taste
+{
+	text-align:center;
+	margin-top:12px;
+}
+
+.taste p 
+{
+	font-size:15px;
+	color:rgba(70,70,70,1);
+}
+
+.middle .trending-food
+{
+	margin-top:50px;
+	background:transparent;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	margin-bottom:3rem;
+}
+
+.middle .recipie
+{
+	width:190px;
+	height:auto;
+}
+
+.middle .recipie img
+{
+	width:190px;
+	height:150px;
+}
+
+.middle .recipie p
+{
+	margin-top:12px;
+	text-align:center;
+}
+
+.middle .recipie p a
+{
+	color:rgba(50,50,50,1);
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.middle .recipie p a:hover
+{
+	text-decoration:underline;
+	transition:0.3s;
+}

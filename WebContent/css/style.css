@@ -1,0 +1,133 @@
+@charset "ISO-8859-1";
+
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-family:sans-serif;
+	outline:none;
+}
+
+.banner
+{
+	width:100%;
+	height:100vh;
+	background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2),
+	 rgba(0,0,0,0.1), rgba(0,0,0,0.2)), 
+	url("../image/burger.jpg") 100% 100% no-repeat;	
+	background-size:cover;
+	background-attachment: scroll;
+	position:center;
+	object-fit:center;
+}
+
+.header
+{
+	width:100%;
+	height:90px;
+	display:flex;
+	flex-direction:row;
+}
+
+.header .logo
+{
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	padding-left:3rem;
+}
+
+.header .logo a{
+	color:white;
+	font-size:43px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.header .menu
+{
+ display:flex;
+ flex-direction:row; 
+ align-items:center;
+ justify-content:flex-end;	
+ padding-right:6rem;
+}
+
+
+.header .menu button
+{
+color:orange;
+cursor:pointer;	
+width:10rem;
+height:2.5rem;
+border:2px solid orange;
+background:transparent;
+border-radius:10px;
+font-size:15px;
+}
+
+
+#login{
+color:white;
+border:none;
+width:4rem;
+margin-right:20px;
+}
+
+#login:hover
+{
+	color:rgba(230,230,230,1);
+	transition:0.3s;
+}
+.header .menu button:hover
+{
+ color:rgba(2300,230,230,1);
+ border-color:rgba(230,230,230,1);
+ transition:0.3s;
+}
+
+
+.banner .search-box{
+	 width:32rem;
+	 left:50%;
+	 top:50%;
+	 transform:translate(-50%, -50%);
+	 position:absolute;
+	 display:flex;
+	 flex-direction:row;
+	 background:white;
+	 border-radius: 25px;
+	 background:rgba(256,256,256,1);
+	 box-shadow: -10px -10px 30px 4px rgba(0,0,0,0.2),
+              10px 10px 30px 4px rgba(45,78,255,0.2);
+}
+
+.banner .search-box input
+{
+	 font-size:15.5px;
+	 height:2.6rem;
+	 border:none;
+	 padding-left:23px;
+	 border-radius: 25px;
+	 background:transparent;
+	 color:rgba(50,50,50,1);
+}
+
+.banner .search-box .search-button
+{
+	width:3rem;
+	padding-right:12px;
+	background:transparent;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	cursor:pointer;
+	border-radius:0 25px 25px 0;
+}
+
+.banner .search-box .search-button .fa-search
+{
+ font-size:16px; 
+ color:rgba(50,50,50,1); 
+}
