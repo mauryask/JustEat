@@ -1,0 +1,127 @@
+@charset "ISO-8859-1";
+.footer-menu
+{	
+	width:100%;
+	height:350px;
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5),
+	 rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+	url("../image/footer-drink.jpg") 100% 100% no-repeat;	
+	background-size:cover;
+	background-attachment: scroll;
+	position:center;
+	object-fit:center;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+}
+
+.footer-menu div
+{
+	word-wrap:break-word;
+  	width:210px;
+  	height:auto;
+  	display:flex;
+  	flex-direction:column;
+}
+
+
+
+.footer-menu .msg p:nth-child(1)
+{
+	color:white;
+	font-weight:bold;
+	font-size:30px;
+	text-align:left;
+	margin-bottom:0.5rem;
+}
+
+.footer-menu .msg p:nth-child(2)
+{
+	letter-spacing:0.5px;
+	color:white;
+	line-height:25px;
+	font-size:15px;
+	font-weight:normal;
+}
+
+.footer-menu .menu 
+{
+  color:white;
+  display:flex;
+  flex-direction:column;	
+}
+
+
+.footer-menu .menu p.head
+{
+  font-weight:bold;
+  font-size:18px;
+  border-left:4px solid orange;
+  margin-bottom:0.5rem;
+  padding-left:19px;
+}
+
+.footer-menu .menu p 
+{
+	font-size:14px;
+	line-height:30px;
+}
+
+.footer-menu .menu p a
+{
+	text-decoration:none;
+	margin-left:13px;
+	color:white;
+}
+
+.footer-menu .menu p a:hover
+{
+    text-decoration:underline;
+	color:orange;
+	transition:0.3s;
+}
+
+
+.developer
+{
+	width:100%;
+	height:55px;
+	background:rgba(16,32,69,0.8);
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+}
+
+.developer p
+{
+	color:white;
+	font-size:14px;
+	font-weight:normal;
+}
+
+.developer p:nth-child(odd)
+{
+	text-align:left;
+	padding-left:5rem;
+}
+
+.developer p:nth-child(even)
+{
+	padding-right:5rem;
+	text-align:right;
+}
+
+.developer p:nth-child(even) a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.developer p:nth-child(even) a:hover
+{
+	text-decoration:underline;
+	color:orange;
+	transition:0.3s;
+}
