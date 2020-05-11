@@ -99,8 +99,7 @@ margin-right:20px;
 	 background:white;
 	 border-radius: 25px;
 	 background:rgba(256,256,256,1);
-	 box-shadow: -10px -10px 30px 4px rgba(0,0,0,0.2),
-              10px 10px 30px 4px rgba(45,78,255,0.2);
+	box-shadow:0 2px 4px 6px rgba(0,0,0,0.1);
 }
 
 .banner .search-box input

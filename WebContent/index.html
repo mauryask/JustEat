@@ -10,10 +10,77 @@
 <link rel="stylesheet" href="css/hot-items.css" type="text/css"/>
 <link rel="stylesheet" href="css/fact.css" type="text/css"/>
 <link rel="stylesheet" href="css/footer.css" type="text/css"/>
+<link rel="stylesheet" href="css/login-signup.css" type="text/css"/>
+<link rel="stylesheet" href="css/back_to_top.css" type="text/css"/>
+
+<!-- ============  Fontawesome CDN  =========== -->
 <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
 
+<!-- ============  jQuery CDN  =========== -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.js" type="text/javascript"></script>
+
+<!-- ============  Tweenmax(gsap) CDN  =========== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/back_to_top.js" type="text/javascript"></script>
 </head>
 <body>
+
+
+<button id="back-to-top" ><i class="fas fa-chevron-up"></i></button>
+
+
+<!-- ================ Sign up Screen  ============== -->
+<div class="signup-screen">
+
+<div class="form-wrapper">
+
+<p class="cancel_signup"><i class="fas fa-times"></i></p>
+
+<p>Sign Up</p>
+
+<form  autocomplete="off">
+<input type="text" placeholder="Name" name="name"/>
+<input type="email" placeholder="Email" name="eamil"/>
+<input type="password" placeholder="Password" name="password"/>
+<input type="submit" value="Sign Up"
+ style="margin-bottom:1rem;
+cursor:pointer;padding-left:0;
+text-align:center;background:orange;
+border:none;color:white;"/>
+</form>
+
+<p class="go_to_login">already a  member? login</p>
+</div>
+
+</div>
+
+
+<!-- ================ Login Screen  ============== -->
+<div class="login-screen">
+
+<div class="form-wrapper">
+
+<p class="cancel_login"><i class="fas fa-times"></i></p>
+
+<p>Login</p>
+
+<form  autocomplete="off">
+<input type="text" placeholder="Name" name="name"/>
+<input type="password" placeholder="Password" name="password"/>
+<input type="submit" value="Login"
+ style="margin-bottom:1rem;
+cursor:pointer;padding-left:0;
+text-align:center;background:orange;
+border:none;color:white;"/>
+</form>
+
+<p class="go_to_sign_up">new member? sign up</p>
+</div>
+
+</div>
+
 
 <!-- ============= Main Banner ============ -->
 <div class="banner">
@@ -108,7 +175,7 @@
 		      <p>Fried Chicken</p>
 		    </a>
 		    <p class="price">&#x20B9;250.0</p>
-		    <button class="buy">Buy Now</button>
+		    <button class="buy">Order Now</button>
 		    
 		</div>
 	</div>
@@ -120,7 +187,7 @@
 		<div class="food-detail">
 		     <a href="#"><p>chili pakauda</p></a>
 		      <p class="price">&#x20B9;120.0</p>
-		    <button class="buy">Buy Now</button>
+		    <button class="buy">Order Now</button>
 		</div>
 	</div>
 	
@@ -131,7 +198,7 @@
 		<div class="food-detail">
 		     <a href="#"><p>Double Burger</p></a>
 		      <p class="price">&#x20B9;70.0</p>
-		    <button class="buy">Buy Now</button>
+		    <button class="buy">Order Now</button>
 		</div>
 	</div>
 	
@@ -142,7 +209,7 @@
 		<div class="food-detail">
 		     <a href="#"><p>Mutton Masala</p></a>
 		      <p class="price">&#x20B9;399.0</p>
-		    <button class="buy">Buy Now</button>
+		    <button class="buy">Order Now</button>
 		</div>
 	</div>
 	
@@ -159,7 +226,7 @@
 		<div class="food-detail">
 		     <a href="#"><p>Soft Drinks</p></a>
 		      <p class="price">&#x20B9;99.0</p>
-		    <button class="buy">Buy Now</button>
+		    <button class="buy">Order Now</button>
 		</div>
 	</div>
 	
@@ -170,7 +237,7 @@
 		<div class="food-detail">
 		     <a href="#"><p>Toasts soup</p></a>
 		      <p class="price">&#x20B9;45.0</p>
-		    <button class="buy">Buy Now</button>
+		    <button class="buy">Order Now</button>
 		</div>
 	</div>
 	
@@ -181,7 +248,7 @@
 		<div class="food-detail">
 		     <a href="#"><p>Tandoori Butter</p></a>
 		      <p class="price">&#x20B9;299.0</p>
-		    <button class="buy">Buy Now</button>
+		    <button class="buy">Order Now</button>
 		</div>
 	</div>
 	
@@ -192,7 +259,7 @@
 		<div class="food-detail">
 		     <a href="#"><p>Fried Pork</p></a>
 		      <p class="price">&#x20B9;620.0</p>
-		    <button class="buy">Buy Now</button>
+		    <button class="buy">Order Now</button>
 		</div>
 	</div>
 	
