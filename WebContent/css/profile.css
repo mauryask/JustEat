@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+*{
+	width:100%;
+	margin:0;
+	padding:0;
+	word-wrap:beak-word;
+	outline:none;
+	font-family: sans-serif;
+}
+
+
+.universal-div
+{
+	overflow:hidden;
+	margin:0 auto;
+	width:80%;
+	height:100vh;
+}
+
+.header
+{
+	overflow:hidden;
+	background:rgba(250,250,250,1);
+	width:100%;
+	height:70px;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	padding-left:20px;
+}
+
+.header .logo_txt
+{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:40px;
+	color:rgba(50,50,50,1);
+}
+
+.header .items
+{
+	width:60%;
+   display:flex;
+   flex-direction:row;
+   justify-content: space-between;
+}
+
+.header .items a
+{
+    text-decoration:none;
+   	color:rgba(50,50,50,1);
+   	font-size:15px;
+	font-weight:normal;
+}
+
+.header .items a:hover
+{
+    text-decoration:underline;
+    color:orange;
+    transition:0.3s;
+}
+
+.profile-background
+{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	padding-bottom:20px;	
+	height:300px;
+	background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2),
+	 rgba(0,0,0,0.1), rgba(0,0,0,0.2)), 
+	url("../image/burger.jpg") 100% 100% no-repeat;	
+	background-size:cover;
+	background-attachment: scroll;
+	position:center;
+	object-fit:center;
+}
+
+
+.p_details
+{
+	overflow:hidden;
+	width:240px;
+	height:auto;
+	margin-top:auto;
+	position:relative;
+}
+
+.p_details img
+{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	border:4px solid white;
+	align-self:center;
+	left:50%;
+	transform:translate(-50%);
+	position:relative;
+	margin-bottom:10px;
+}
+
+.p_details p
+{
+	text-align:center;
+	font-size:18px;
+	font-family: sans-serif;
+}
